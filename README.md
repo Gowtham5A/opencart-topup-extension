@@ -2,6 +2,7 @@
  topup extension for opencart v3.0.3.2
 
 Install Database
+	
 	create 'topup' table
 		- fields (topup_id,code[20](uniq),customer_id,amount,status,created_date,updated_date)
 
